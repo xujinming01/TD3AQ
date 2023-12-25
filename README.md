@@ -4,14 +4,7 @@ PyTorch implementation of Twin Delayed Deep Deterministic Actor-Q (TD3AQ) algori
 
 ## Abstract
 
-Many optimal control problems require the simultaneous output of continuous and discrete control variables.
-Such problems are usually formulated as mixed-integer optimal control (MIOC) problems,
-which are challenging to solve due to the complexity of the solution space. 
-Numerical methods such as branch-and-bound are computationally expensive and unsuitable for real-time control. 
-This brief proposes a novel continuous-discrete reinforcement learning (CDRL) algorithm, twin delayed deep deterministic actor-Q (TD3AQ), for MIOC problems.
-TD3AQ combines the advantages of both actor-critic and Q-learning methods, and can handle the continuous and discrete action spaces simultaneously.
-The proposed algorithm is evaluated on a plug-in hybrid electric vehicle (PHEV) energy management problem, where real-time control of the continuous variable, engine torque, and discrete variables, gear shift and clutch engagement/disengagement is essential to maximize fuel economy while satisfying driving constraints. 
-Simulation results on different drive cycles show that TD3AQ achieves near-optimal control compared to dynamic programming (DP) and outperforms baseline reinforcement learning algorithms.
+Many optimal control problems require the simultaneous output of continuous and discrete control variables. Such problems are usually formulated as mixed-integer optimal control (MIOC) problems, which are challenging to solve due to the complexity of the solution space. Numerical methods such as branch-and-bound are computationally expensive and unsuitable for real-time control. This brief proposes a novel continuous-discrete reinforcement learning (CDRL) algorithm, twin delayed deep deterministic actor-Q (TD3AQ), for MIOC problems. TD3AQ combines the advantages of both actor-critic and Q-learning methods, and can handle the continuous and discrete action spaces simultaneously. The proposed algorithm is evaluated on a plug-in hybrid electric vehicle (PHEV) energy management problem, where real-time control of the continuous variable, engine torque, and discrete variables, gear shift and clutch engagement/disengagement is essential to maximize fuel economy while satisfying driving constraints. Simulation results on different drive cycles show that TD3AQ achieves near-optimal control compared to dynamic programming (DP) and outperforms baseline reinforcement learning algorithms.
 
 ## License
 
